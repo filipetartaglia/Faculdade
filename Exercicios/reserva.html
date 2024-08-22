@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de viagem</title>
+</head>
+<body>
+    <form action="" method="get">
+
+        <fieldset>
+            <legend>Dados</legend>
+            <label>Nome</label><br>
+            <input type="text" name="nome"><br><br>
+
+            <label>Email</label><br>
+            <input type="email" required name="email"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Quais serviços deseja contratar?</legend>
+            <label><br><input type="checkbox" name="compraCamisas" value="Camisas">Compra de passagens</label>
+            <label><br><input type="checkbox" name="compraShorts" value="Shorts">Reserva de hospedagem</label>
+            <label><br><input type="checkbox" name="compraMentoria" value="Mentoria">Aluguel de veículos</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Escolha a forma de pagamento</legend>
+            <label><br><input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de crédito</label>
+            <label><br><input type="radio" name="formaPagamento" value="Boleto">Boleto</label>
+            <label><br><input type="radio" name="formaPagamento" value="Pix">Pix</label>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Escolha o prazo para pagamento</legend>
+            <select name="prazoPagamento">
+                <option value="aVista">Á vista</option>
+                <option value="5x" selected>5x sem juros</option>
+                <option value="12x">10x com juros</option>
+            </select>
+        </fieldset>
+
+        <label>Comentário</label><br>
+        <textarea rows="5" name="comentario"></textarea><br><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
