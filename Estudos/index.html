@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+
+    <!--A cabeça do site-->
+    <header class="container-fluid p-2 bg-warning text-center">
         <nav class="navbar navbar-expand-lg bg-warning">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Atletas de Cristo</a>
@@ -37,113 +39,186 @@
               </div>
             </div>
           </nav>
-        <h1>Venha participar do nosso grupo atletas de Cristo!</h1>
+    
+          <!--Carousel(carrosel) de imagens-->
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Foto-gestao-campeao.jpeg" width="1080px" height="600px"  class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Grupo Campeão</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/Foto-tres-amigos.jpeg" width="1080px" height="600px"  class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Uma familia para pertencer</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!--Seção de conhecer o projeto-->
     </header>
-    <section id="pacotes">
+    <section class="container-fluid bg-light text-center p-2">
         <h2>Conheça nosso projeto:</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, ad pariatur, quas dolor maiores aspernatur, quibusdam amet libero fuga iure quis ex! Delectus nulla consequatur minus molestiae facilis? Libero, blanditiis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ab cumque in, excepturi ad similique molestias fuga id, libero odio non nihil quibusdam, soluta unde. A voluptate quae minus commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestiae, aspernatur commodi tempora corrupti, vel repudiandae nihil accusantium, iste consequatur maxime iure! Corrupti, nesciunt culpa reprehenderit id veniam rerum autem! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis fugiat eveniet iure dicta aperiam. Totam quidem maxime culpa quam nostrum odio asperiores ipsum dicta doloribus. Adipisci minus excepturi eaque iure. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos aut atque consequatur deleniti eaque nostrum reiciendis earum. Ipsam corporis quia, aut sapiente temporibus in exercitationem rerum, nisi tempore nobis perferendis!
-        </p><hr>
-
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, ad pariatur, quas dolor maiores aspernatur, quibusdam amet libero fuga iure quis ex! Delectus nulla consequatur minus molestiae facilis? Libero, blanditiis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ab cumque in, excepturi ad similique molestias fuga id, libero odio non nihil quibusdam, soluta unde. A voluptate quae minus commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestiae, aspernatur commodi tempora corrupti, vel repudiandae nihil accusantium, iste consequatur maxime iure! Corrupti, nesciunt culpa reprehenderit id veniam rerum autem! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis fugiat eveniet iure dicta aperiam. Totam quidem maxime culpa quam nostrum odio asperiores ipsum dicta doloribus. Adipisci minus excepturi eaque iure. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos aut atque consequatur deleniti eaque nostrum reiciendis earum. Ipsam corporis quia, aut sapiente temporibus in exercitationem rerum, nisi tempore nobis perferendis!
-        </p><hr>
-
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, ad pariatur, quas dolor maiores aspernatur, quibusdam amet libero fuga iure quis ex! Delectus nulla consequatur minus molestiae facilis? Libero, blanditiis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ab cumque in, excepturi ad similique molestias fuga id, libero odio non nihil quibusdam, soluta unde. A voluptate quae minus commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestiae, aspernatur commodi tempora corrupti, vel repudiandae nihil accusantium, iste consequatur maxime iure! Corrupti, nesciunt culpa reprehenderit id veniam rerum autem! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis fugiat eveniet iure dicta aperiam. Totam quidem maxime culpa quam nostrum odio asperiores ipsum dicta doloribus. Adipisci minus excepturi eaque iure. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos aut atque consequatur deleniti eaque nostrum reiciendis earum. Ipsam corporis quia, aut sapiente temporibus in exercitationem rerum, nisi tempore nobis perferendis!
         </p>
-
         <hr>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/Foto-gestao-campeao.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/Foto-tres-amigos.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/Foto-gestao-campeao.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <divc class="row">
-            <figure class="col text-center">
-                <img src="img/Foto-tres-amigos.jpeg" alt="Imagem do desafio 21 dias" width="500px" height="600px">
-                <figcaption>Aliança</figcaption>
-            </figure>
-
-            <figure class="col text-center">
-                <img src="img/Foto-gestao-campeao.jpeg" width="500px" height="600px" alt="Capa receita bônus">
-                <figcaption>Familia</figcaption>
-            </figure>
-        </div>
-
+        <!--Seção de taxas e serviços-->
+        <section class="container-fluid bg-warning text-center p-2">
+            <h2>Taxas e serviços</h2>
+            <p>Conheça os nossos produtos e serviços</p>
+            <table class="table table-warning table-striped table-hover table-bordered border-warning">
+                <caption>Descrição dos nossos produtos e serviços e seus respectivos preços</caption>
+                <thead class="table-secondary">
+                    <tr>
+                        <th>Produto</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <td>Camisas atletas</td>
+                        <td>R$69,90</td>
+                    </tr>
+                    <tr>
+                        <td>Shorts esportivos</td>
+                        <td>R$79,90</td>
+                    </tr>
+                    <tr>
+                        <td>Mentoria</td>
+                        <td>R$540,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </section>
-    <section>
-        <h2>Orçamento</h2>
+    <section class="container-fluid bg-warning bg-light p-2">
+        <h2 class="text-center">Faça sua parte</h2>
         <form action="" method="get">
 
             <fieldset>
                 <legend>Dados</legend>
-                <label>Nome</label><br>
-                <input type="text" name="nome"><br><br>
+        
+                <div class="mb-3">
+                    <label class="form-label" for="nome">Nome</label>
+                    <input type="text" class="form-control" name="nome" id="nome">
+                </div>
+                
+                <div class="mb-3">
+                    <label class="form-label" for="email">Email</label>
+                    <input type="email" class="form-control" placeholder="seuemail@email.com" required name="email" id="email">
+                </div>
 
-                <label>Email</label><br>
-                <input type="email" required name="email"><br><br>
+                <div class="mb-3">
+                    <label class="form-label" for="prazoEntrega">Prazo de entrega</label>
+                    <input type="date" class="form-control" name="prazoEntrega" id="prazoEntrega">
+                </div>
 
-                <label>Prazo de entrega</label><br>
-                <input type="date" name="prazoEntrega"><br><br>
+                <div class="mb-3">
+                    <label class="form-label" for="qtd">Quantidade</label><br>
+                    <input type="number" class="form-control" name="qtd" id="qtd"><br><br>
+                </div>
 
-                <label>Quantidade</label><br>
-                <input type="number" name="qtd"><br><br>
             </fieldset>
 
             <fieldset>
                 <legend>Quais serviços deseja contratar?</legend>
-                <label><br><input type="checkbox" name="compraCamisas" value="Camisas">Compra de camisa</label>
-                <label><br><input type="checkbox" name="compraShorts" value="Shorts">Compra de shorts</label>
-                <label><br><input type="checkbox" name="compraMentoria" value="Mentoria">Marcar mentoria</label>
+                <div class="form-check mb-3">
+                    <label class="form-check-label" for="compraCamisas">Compra de camisa</label>
+                    <input type="checkbox" class="form-check-input" name="compraCamisas" id="compraCamisas" value="Camisas">
+                </div>
+                
+                <div class="form-check mb-3">
+                    <label class="form-check-label" for="compraShorts">Compra de shorts</label>
+                    <input type="checkbox" class="form-check-input" name="compraShorts" id="compraShorts" value="Shorts">
+                </div>
+
+                <div class="form-check mb-3">
+                    <label class="form-check-label" for="compraMentoria">Marcar mentoria</label>
+                    <input type="checkbox" class="form-check-input" name="compraMentoria" id="compraMentoria" value="Mentoria">
+                </div>
+
             </fieldset>
-
-            <fieldset>
-                <legend>Escolha a forma de pagamento</legend>
-                <label><br><input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de crédito</label>
-                <label><br><input type="radio" name="formaPagamento" value="Pix">Pix</label>
-                <label><br><input type="radio" name="formaPagamento" value="Boleto">Boleto</label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Escolha o prazo para pagamento</legend>
-                <select name="prazoPagamento">
-                    <option value="aVista">Á vista</option>
-                    <option value="5x" selected>5x sem juros</option>
-                    <option value="12x">12x sem juros</option>
-                </select>
-            </fieldset>
-
-            <label>Comentário</label><br>
-            <textarea rows="5" name="comentario"></textarea><br><br>
-
-            <button>Salvar</button>
+            <br>
+            <button class="btn btn-secondary">Salvar</button>
         </form>
     </section>
     <br><br>
-    <section>
-        <h2>Taxas e serviços</h2>
-        <p>Conheça os nossos produtos e serviços</p>
-        <table>
-            <caption>Descrição dos nossos produtos e serviços e seus respectivos preços</caption>
-            <thead>
-                <tr>
-                    <th>Produto</th>
-                    <th>Valor</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Camisas atletas</td>
-                    <td>R$69,90</td>
-                </tr>
-                <tr>
-                    <td>Shorts esportivos</td>
-                    <td>R$79,90</td>
-                </tr>
-                <tr>
-                    <td>Mentoria</td>
-                    <td>R$540,00</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <footer>
-        <p>Desenvolvido por Filipe Tartaglia</p>
+    <footer class="container-fluid bg-warning text-center">
+        <p>Desenvolvido por <a href="http://linkedin.com" class="link-body-emphasis link-offset-1-hover">Filipe Tartaglia</a></p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </html>
