@@ -1,0 +1,16 @@
+package descomplica.aula;
+
+public class AulaExemploDescomplica01 {
+    
+    public static void mainDescomplica(String[] args) {
+    
+        int idadeProfessor;
+ 
+        idadeProfessor = 5;
+
+        System.out.println(idadeProfessor);        
+
+    
+    }
+
+}
