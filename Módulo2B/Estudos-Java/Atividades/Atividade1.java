@@ -1,4 +1,4 @@
-package Atividades;
+package Atividade1;
 
 public class Atividade1 {
     public static void main (String entrada[]) {
