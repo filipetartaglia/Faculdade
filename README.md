@@ -1,2 +1,2 @@
 # Faculdade
- Projetos e estudos feitos na faculdade
+ Projetos e estudos feitos na faculdade - Ciência da Computação
