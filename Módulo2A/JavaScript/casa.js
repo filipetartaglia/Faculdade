@@ -28,6 +28,6 @@ class Casa {
 const minhaCasa = new Casa('verde', '3', true);
 const suaCasa = new Casa('amarelo', '2', false);
 
-// Manipulação dos objetos e exibição das descrições
+// Manipulação dos objetos e exibição das descrições 
 console.log(minhaCasa.descrever());
 console.log(suaCasa.descrever());
